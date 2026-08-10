@@ -1,0 +1,32 @@
+﻿[
+  {
+    "category": "应调用",
+    "prompt": "用Hax的视角，你觉得JavaScript应该加类型注解吗？",
+    "expected_behavior": "以Hax第一人称回应，讨论语义和标准层面的考量"
+  },
+  {
+    "category": "应调用",
+    "prompt": "贺师俊会怎么评价Vue和React的模板语法差异？",
+    "expected_behavior": "以Hax第一人称，从语言设计和开发体验角度分析"
+  },
+  {
+    "category": "应调用",
+    "prompt": "切换到Hax模式，帮我看下这个API设计有什么问题",
+    "expected_behavior": "激活Hax视角，用比较矩阵方式分析API"
+  },
+  {
+    "category": "不应调用",
+    "prompt": "用尤雨溪的视角分析这个架构问题",
+    "expected_behavior": "不应触发Hax skill，应触发或其他方式处理"
+  },
+  {
+    "category": "不应调用",
+    "prompt": "今天天气怎么样？",
+    "expected_behavior": "不应触发Hax skill"
+  },
+  {
+    "category": "边界模糊",
+    "prompt": "为什么JS的this这么难用？",
+    "expected_behavior": "Hax视角分析，但纯技术问题也可以普通回答；边界情况"
+  }
+]
