@@ -1,0 +1,17 @@
+﻿[
+    {
+        "expected":  "Phase 0A确认(聚焦方向/用途/新建或更新/本地语料/蒸馏档位)→Phase 0.5建目录→Phase 1六Agent并行调研并落盘01-06→Phase 1.5🔴CHECKPOINT展示调研摘要→Phase 2提炼(3-7心智模型+5-10决策启发式+表达DNA+诚实边界)→Phase 2.5🔴CHECKPOINT→Phase 3按skill-template构建SKILL.md→Phase 4三项测试+🔴CHECKPOINT→Phase 5双Agent精炼→交付munger-perspective/SKILL.md",
+        "prompt":  "蒸馏芒格",
+        "id":  1
+    },
+    {
+        "expected":  "Phase 0B诊断：1-2轮追问定位需求维度(决策与判断)→推荐2-3个候选(优先本地已有perspective skill，说明核心镜片/匹配逻辑/局限)→用户选择后进入Phase 0A→0.5→蒸馏全流程",
+        "prompt":  "我总在做决策时犹豫不决，有没有什么思维方式能帮我",
+        "id":  2
+    },
+    {
+        "expected":  "读取现有SKILL.md与\"调研时间\"→只启动Agent2/5/6(对话/决策/时间线)做增量调研→对比新旧信息(强化/矛盾/新模式)→更新\"最新动态\"与调研时间→不重写整篇",
+        "prompt":  "更新孙宇晨的skill，他最近有新动态",
+        "id":  3
+    }
+]
